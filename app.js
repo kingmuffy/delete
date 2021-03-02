@@ -81,7 +81,7 @@ nextBtn.addEventListener("click", function () {
   prevBtn.addEventListener("click", function () {
       currentcount--;
       if (currentcount < 0) {
-          currentcount = 0
+          currentcount = reviews.length-1
       } 
       showperson(currentcount);
   });
